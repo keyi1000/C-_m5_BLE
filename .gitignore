@@ -44,5 +44,20 @@
 
 # End of https://www.toptal.com/developers/gitignore/api/c++,platformio
 
+# CocoaPods関連
 .cocoapods/
-.cocoapods/repos/
+Pods/
+Podfile.lock
+
+# 設定ファイル
+.condarc
+.gitignore_global
+
+# macOS関連
+.DS_Store
+
+# VSCode関連
+.vscode/
+
+# PlatformIO関連
+.pio/
